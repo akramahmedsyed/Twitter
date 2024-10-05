@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Vitamin Cheat Sheet</title>
+  <!-- Bootstrap CSS -->
+  <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+  <style>
+    /* Fancy CSS Styles */
+    body {
+      font-family: 'Arial', sans-serif;
+      background: linear-gradient(to right, #ffecd2, #fcb69f);
+      padding: 40px;
+    }
+
+    h2, h3 {
+      color: #fff;
+      text-align: center;
+      font-weight: bold;
+    }
+
+    h2 {
+      font-size: 2.5rem;
+      margin-bottom: 10px;
+    }
+
+    h3 {
+      font-size: 1.5rem;
+      margin-bottom: 20px;
+    }
+
+    .table-container {
+      box-shadow: 0px 4px 25px rgba(0, 0, 0, 0.1);
+      border-radius: 15px;
+      overflow: hidden;
+      background-color: #fff;
+    }
+
+    /* Table header styling */
+    .table thead th {
+      background: #ff7f50;
+      color: #fff;
+      text-transform: capitalize;
+      letter-spacing: 0.05rem;
+      font-weight: bold;
+      font-size: 1.1rem;
+      padding: 15px;
+    }
+
+    /* Table rows styling */
+    .table tbody td {
+      font-size: 1.1rem;
+      color: #555;
+      padding: 20px 15px;
+      vertical-align: middle;
+    }
+
+    /* Row hover effect */
+    .table tbody tr:hover {
+      background: #ffecd2;
+      transition: background 0.3s ease;
+    }
+
+    /* Column styling for emojis */
+    .emoji {
+      font-size: 1.8rem;
+    }
+
+    /* Table cells for Vitamins */
+    .table tbody td:first-child {
+      font-weight: 600;
+      color: #ff7f50;
+    }
+
+    /* Responsive table rounding */
+    .table tbody tr:last-child td:first-child {
+      border-bottom-left-radius: 15px;
+    }
+
+    .table tbody tr:last-child td:last-child {
+      border-bottom-right-radius: 15px;
+    }
+
+    /* Add subtle border and shadow */
+    .table td, .table th {
+      border: none;
+      box-shadow: inset 0 -1px 0 #f1f1f1;
+    }
+
+    /* Table Footer */
+    .footer {
+      text-align: center;
+      margin-top: 40px;
+      color: #444;
+      font-size: 1rem;
+    }
+
+  </style>
+</head>
+<body>
+
+<div class="container my-5">
+  <div class="table-container">
+    <table class="table table-bordered text-center">
+      <thead>
+        <tr>
+          <th colspan="3">
+            <h2>Vitamin Cheat Sheet</h2>
+            <h3>Follow @_akramsyed</h3>
+          </th>
+        </tr>
+        <tr>
+          <th>Vitamin</th>
+          <th>Why It's Important</th>
+          <th>Good Sources</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td><strong>A</strong></td>
+          <td>Supports healthy vision, skin, bones, teeth, and reproductive functions.</td>
+          <td class="emoji">🥕 Carrots, 🍑 Peaches, 🥬 Spinach</td>
+        </tr>
+        <tr>
+          <td><strong>B1</strong><br><small>(Thiamine)</small></td>
+          <td>Helps in converting food into energy and supports nerve function.</td>
+          <td class="emoji">🍚 Rice, 🍞 Whole Wheat Bread, 🍠 Sweet Potatoes</td>
+        </tr>
+        <tr>
+          <td><strong>B2</strong><br><small>(Riboflavin)</small></td>
+          <td>Aids in energy production and promotes healthy skin, hair, blood, and brain.</td>
+          <td class="emoji">🍄 Mushrooms, 🥦 Broccoli, 🥜 Almonds</td>
+        </tr>
+        <tr>
+          <td><strong>B3</strong><br><small>(Niacin)</small></td>
+          <td>Essential for energy production and maintaining a healthy nervous system.</td>
+          <td class="emoji">🥑 Avocados, 🥬 Leafy Greens, 🍅 Tomatoes</td>
+        </tr>
+        <tr>
+          <td><strong>B5</strong><br><small>(Pantothenic Acid)</small></td>
+          <td>Assists in hormone production and helps obtain energy from food.</td>
+          <td class="emoji">🍠 Sweet Potatoes, 🍄 Mushrooms, 🥜 Peanuts</td>
+        </tr>
+        <tr>
+          <td><strong>B6</strong><br><small>(Pyridoxine)</small></td>
+          <td>Crucial for red blood cell formation and helps with sleep, appetite, and mood regulation.</td>
+          <td class="emoji">🍌 Bananas, 🍉 Watermelon, 🥔 Potatoes</td>
+        </tr>
+        <tr>
+          <td><strong>B7</strong><br><small>(Biotin)</small></td>
+          <td>Facilitates energy production and the breakdown of glucose.</td>
+          <td class="emoji">🍞 Whole Wheat Bread, 🍄 Mushrooms, 🥜 Almonds</td>
+        </tr>
+        <tr>
+          <td><strong>B9</strong><br><small>(Folate)</small></td>
+          <td>Important for new cell creation and DNA synthesis.</td>
+          <td class="emoji">🥬 Spinach, 🍅 Tomatoes, 🥕 Carrots</td>
+        </tr>
+        <tr>
+          <td><strong>B12</strong></td>
+          <td>Helps break down fatty acids and supports red blood cell production.</td>
+          <td class="emoji">🌿 Nori, 🍄 Mushrooms, 🥥 Coconut Milk</td>
+        </tr>
+        <tr>
+          <td><strong>C</strong></td>
+          <td>Functions as an antioxidant, boosts the immune system, and aids in cell repair.</td>
+          <td class="emoji">🍊 Oranges, 🥦 Broccoli, 🥝 Kiwis</td>
+        </tr>
+        <tr>
+          <td><strong>D</strong></td>
+          <td>Supports calcium and phosphorus absorption for bone and teeth health.</td>
+          <td class="emoji">☀️ Sunlight, 🍄 Mushrooms, 🐟 Fortified Plant Milks</td>
+        </tr>
+        <tr>
+          <td><strong>E</strong></td>
+          <td>Acts as an antioxidant and helps stabilize cell membranes.</td>
+          <td class="emoji">🥑 Avocados, 🌰 Nuts, 🥦 Broccoli</td>
+        </tr>
+        <tr>
+          <td><strong>K</strong></td>
+          <td>Essential for blood clotting and maintaining calcium balance.</td>
+          <td class="emoji">🥬 Kale, 🥦 Broccoli, 🥒 Cucumbers</td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+
+  <div class="footer">
+    <p>© _akramsyed | Designed with ❤️</p>
+  </div>
+</div>
+
+
+<!-- Bootstrap JS and dependencies -->
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+</body>
+</html>
